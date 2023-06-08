@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.tutors-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tutor-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #d5ebee;
+    border-radius: 10px;
+    box-shadow: 0 12px 14px rgba(0, 0, 0, 0.1);
+}
+
+.tutor-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.tutor-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tutor-info {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    color: #777;
+}
