@@ -396,7 +396,7 @@ h6{
     padding: 0px 0;
 }
 .social-icon {
-    color: #2bc258;
+    color: #f50f0f;
     transition: color 0.2s;
     text-decoration: none;
     margin: 0 10px;
@@ -604,6 +604,56 @@ h5{
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+
+.features-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .feature-box {
+    width: 200px;
+    padding: 30px;
+    margin: 10px;
+    background-color: rgba(38, 56, 80, 0.815);
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .feature-box:hover {
+  box-shadow: 0 0 10px 0px rgb(255, 2, 2);
+  flex-basis: 25%;
+  border-radius: 10px;
+  padding: 10px 8px;
+  box-sizing: border-box;
+  transition: 0.5s; 
+  }
+  
+  .feature-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color:#180e0e
+  }
+  
+  .feature-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:rgb(248, 247, 245);
+  }
+  
+  .feature-description {
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  .footer {
+    background-color: #111010;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+  }
 
 
 
