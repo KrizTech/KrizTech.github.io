@@ -1,227 +1,245 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name= "viewport" content ="width=device-width, initial-scale=1.0"> 
-    <title>Welcome to LearnHub</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>E-Learning Landing Page</title>
+  <style>
+    body {
+      font-family: 'Franklin Gothic Medium', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url("images/elearn.jpg");
+      background-size: cover;
+      background-position: center;
+    }
     
-</head> 
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 0;
+    }
+    
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      width: 50px;
+    }
+    
+    .logo img {
+      height: 60px;
+    }
+
+    .logo:hover {
+    box-shadow: 0 0 5px 0px rgba(5, 200, 0, 0.800);
+    flex-basis: 16%;
+    border-radius: 10px;
+    padding: 10px 8px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+    .navigation {
+      display: flex;
+    }
+    
+    .navigation a {
+      color: #ffffff;
+      text-decoration: none;
+      margin-left: 20px;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .hero-section a:hover,
+    .navigation a:hover {
+      background-color: #333333;
+    }
+    
+    .home-link {
+      background-color: #d66813;
+    }
+    
+    .about-link {
+      background-color: #daa412;
+    }
+    
+    .contact-link {
+      background-color: #25ad59;
+    }
+    
+    .login-link,
+    .signup-link {
+      background-color: #03a9f4;
+    }
+
+    .GetStarted-link {
+      background-color: #e44242;
+      color: #ffffff;
+      text-decoration: none;
+      margin-left: -20px;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      float: right;
+      margin-top: -30px;
+    }
+    
+    .hero-section {
+      text-align: center;
+      margin-top: 0px;
+      width: 100%;
+      background-size: cover;
+    }
+    
+    .hero-image {
+      max-width: 800px;
+      margin-bottom: 30px;
+    }
+    
+    .hero-title {
+      font-size: 36px;
+      margin-bottom: 10px;
+      text-align: right;
+      font-size: 33px;
+    }
+    
+    .hero-description {
+      font-size: 18px;
+      color: #3a3939;
+      margin-bottom: 50px;
+      text-align: right;
+    }
+    
+    .features-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 80px;
+    }
+    
+    .feature-box {
+      width: 200px;
+      padding: 30px;
+      margin: 10px;
+      background-color: rgba(0, 0, 0, 0.4);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .feature-box:hover {
+    box-shadow: 0 0 10px 0px rgba(0, 25, 253, 0.8);
+    flex-basis: 25%;
+    border-radius: 10px;
+    padding: 10px 8px;
+    box-sizing: border-box;
+    transition: 0.5s; 
+    }
+    
+    .feature-icon {
+      font-size: 48px;
+      margin-bottom: 20px;
+      color:#5989a0
+    }
+    
+    .feature-title {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color:antiquewhite;
+    }
+    
+    .feature-description {
+      color: #e6e1e1;
+      font-size: 16px;
+    }
+    
+    .footer {
+      background-color: #111010;
+      color: #ffffff;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .social-icon {
+    color: #1c73a5;
+    transition: color 0.2s;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+.social-icon:hover {
+    color: rgb(148, 147, 147);
+}
+  </style>
+</head>
 <body>
-<section class="header">
-        <nav>
-            <div class="logo">
-            <a href="http://127.0.0.1:5000/Home.html" target="">
-                <img src="images/learnhub_logo.png">
+  <div class="container">
+    <header>
+      <div class="logo">
+        <a href="http://127.0.0.1:5000/Home.html" target="_blank"> 
+            <img src="images/learnhub_logo.png" >
+        </a>
+      </div>
+      <nav class="navigation">
+        <a href="http://127.0.0.1:5000/Home.html" class="home-link">Home</a>
+        <a href="http://127.0.0.1:5000/About.html" class="about-link">About</a>
+        <a href="http://127.0.0.1:5000/contact.html" class="contact-link">Contact</a>
+        <a href="http://127.0.0.1:5000/login.html" class="login-link">Login</a>
+        <a href="http://127.0.0.1:5000/signup.html" class="signup-link">Sign Up</a>
+      </nav>
+    </header>
+    
+    <section class="hero-section">
+      <h1 class="hero-title">Welcome To LearnHub<br>E-learning Platform</h1>
+      <p class="hero-description">Start Your Journey Towards Knowledge and Growth<br>With Our Comprehensive Online Courses.</p>
+      <a href="http://127.0.0.1:5000/login.html" class="GetStarted-link">Get Started</a>
+    </section>
+    
+    <section class="features-section">
+      <div class="feature-box">
+        <i class="feature-icon">1</i>
+        <h2 class="feature-title">Learn More</h2>
+        <p class="feature-description">You can learn anything. Explore more of our resources and materials on any field of study.</p>
+      </div>
+      <div class="feature-box">
+        <i class="feature-icon">2</i>
+        <h2 class="feature-title">Live Webinar</h2>
+        <p class="feature-description">Join our live learning sessions and meetings. Connect with our tutors and the global community.</p>
+      </div>
+      <div class="feature-box">
+        <i class="feature-icon">3</i>
+        <h2 class="feature-title">Be Creative</h2>
+        <p class="feature-description">Become the next big thing. Be innovative and creative. Don't be afraid to go beyond the sky.</p>
+      </div>
+    </section>
+    
+    <footer class="footer">
+            <a class="social-icon" href="https://twitter.com/Kriz_Baba" target="_blank">
+                <ion-icon name="logo-twitter"></ion-icon> 
             </a>
-            </div>
-            <div class="nav-links" id="navLinks">
-                <i class="fas fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="About.html">ABOUT</a></li>
-                    <li><a href="courses.html">COURSES</a></li>
-                    <li><a href="Blog.html">BLOG/SERVICES</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-           <i class="fas fa-bars" onclick="showMenu()"></i>
-        </nav>
-<div class="text-box">
-    <br><br><br><br><br><br><br><br>
-    <h1>You Can Learn Anything...</h1>
-    <br><br>
-    <p>Mentorship | Top Instrutors | Courses | Exclusive Materials</p>
-    <h2>Start Studying With Us. Let's Grow Your Education Level Up with E-learning</h2>
-    <br>
-    <a href="http://127.0.0.1:5000/login.html" class="hero-btn">Login to Explore More</a>
-</div>
-
+            <a class="social-icon" href="https://github.com/KrizTech" target="_blank">
+                <ion-icon name="logo-github"></ion-icon> 
+            </a>
+            <a class="social-icon" href="https://www.linkedin.com/in/kriz-tech-18093224b/" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon> 
+            </a>
+            <a class="social-icon" href="https://www.gmail.com" target="_blank">
+                <ion-icon name="mail-outline"></ion-icon> 
+            </a>
     
-    </section>
-    
-<!------- Course Categories ------->
-<br>
-<section class="header2">
-    <section class="course">
-        <h1>COURSES CATEGORIES WE OFFER</h1>
-        <p>Diverse courses, Expert instructors, Comprehensive materials,
-            Interactive learning, Multilingual support and lots more..</p>
-        
-        <div class="row">
-            <div class="course-col">
-                <h3>BASIC</h3>
-                <p1>Our basic-level courses cover a range of subjects, providing a solid foundation for learning and skill development.</p1>
-            </div>
-            <div class="course-col">
-                <h3>INTERMEDIATE</h3>
-                <p1>We offer intermediate-level courses covering various subjects, providing a comprehensive learning experience for skill advancement.</p1>
-            </div>
-            <div class="course-col">
-                <h3>ADVANCED</h3>
-                <p1>Our advanced-level courses delve deep into specialized subjects, offering advanced knowledge and skill development opportunities.</p1>
-            </div>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            <br><br>&copy; 2023 LearnHub Team. All rights reserved.
         </div>
         
-    </section>
-</section>
-    
-    <!------- Tutors ------->
-    
-    <section class="tutors">
-        <h4>MEET OUR TUTORS</h4>
-        <p2>Get acquainted with our dedicated tutors, experts in their fields, ready to guide and support your learning journey.</p2>
-    
-    <div class="row">
-            <div class="tutors-col">
-                <img src="images/sophie.jpg">
-                <div class="layer">
-                    <h3>SOPHIE</h3>
-                </div>
-            </div>
-            <div class="tutors-col">
-                <img src="images/Tut1.png">
-                <div class="layer">
-                    <h3>JENIFER</h3>
-                </div>
-            </div>
-            <div class="tutors-col">
-                <img src="images/tutor_1.png">
-                <div class="layer">
-                    <h3>CHRIS</h3>
-                </div>
-            </div>
-    </div>
-            
-    </section>
-    
-    <!------- Courses ------->
-    
-    <section class="courses">
-        <h4>EXPLORE OUR COURSES</h4>
-        <p2>Discover our diverse courses and embark on your educational journey today!</p2>
-        
-        <div class="row">
-            
-            <div class="courses-col">
-                <img src="images/art1.PNG">
-                    <h3>ART & HUMANITIES</h3>
-                    <p2>Unlock your creativity and explore the world of art with our engaging and inspiring art courses.</p2>
-            </div>
-            
-            <div class="courses-col">
-                <img src="images/business1.PNG">
-                    <h3>BUSINESS</h3>
-                    <p2>Gain valuable business skills and thrive in the world with our comprehensive and practical business courses.</p2>
-            </div>
-            
-            <div class="courses-col">
-                <img src="images/science1.PNG">
-                    <h3>SCIENCE</h3>
-                    <p2>Dive into the world of science and unravel the mysteries of the universe with our captivating science courses.</p2>
-                </div>
-            
-            </div>
-        
-    </section>
-    
-    <!------- Testimonials ------->
-    
-    <section class="testimonials">
-        <h4>WHAT OUR STUDENTS SAYS</h4>
-        <p2>Hear what our satisfied students have to say about their transformative learning experiences with our courses.</p2>
-        
-    <div class="row">
-        
-        <div class="testimonials-col">
-            <img src="images/student.jpg">
-            <div>
-                <p2>Choosing LearnHub was a game-changer for me. The flexibility, quality, and support exceeded my expectations.</p2>
-                <h3>Davina Johnson</h3>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-            </div>
-        </div>       
-        
-         <div class="testimonials-col">
-            <img src="images/white3.PNG">
-            <div>
-                <p2> The LearnHub platform have revolutionized my learning experience, providing flexibility, quality content, and valuable skills.</p2>
-                <h3>Sam Mendis</h3>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-            </div>       
-        </div>
-            
-        <div class="testimonials-col">
-            <img src="images/Test2.PNG">
-            <div>
-                <p2>Choosing LearnHub was the best decision I made. Excellent content, interactive learning, and exceptional support!</p2>
-                <h3>Claire Bennet</h3>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-            </div>
-        </div>       
-    </div>
-        
-    </section>
-    
-    <!------- Call To Action ------->
-    
-    <section class="cta">
-        <h1>Enroll For Our Various Online Courses<br>Anywhere in the World</h1>
-        <a href="http://127.0.0.1:5000/contact.html" class="hero-btn">CONTACT US</a>
-        
-    
-    </section>
-    
-   <!------- Footer ------->
-    
-    <section class="footer">
-        <a class="social-icon" href="https://twitter.com/Kriz_Baba" target="_blank">
-            <ion-icon name="logo-twitter"></ion-icon> 
-        </a>
-        <a class="social-icon" href="https://github.com/KrizTech" target="_blank">
-            <ion-icon name="logo-github"></ion-icon> 
-        </a>
-        <a class="social-icon" href="https://www.linkedin.com/in/kriz-tech-18093224b/" target="_blank">
-            <ion-icon name="logo-linkedin"></ion-icon> 
-        </a>
-        <a class="social-icon" href="https://www.gmail.com" target="_blank">
-            <ion-icon name="mail-outline"></ion-icon> 
-        </a>
-
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    </div>
-        <br><p1>Powered by <i class="fas fa-thumbs-up"></i> LearnHub Team</p1>
-    
-        
-    </section> 
-      
-<!-------Javascript for Toggle Menu-------> 
-<script>
-    
-    var navLinks = document.getElementById("navLinks");
-    function showMenu(){
-        navLinks.style.right = "0"; 
-    }
-    function hideMenu(){
-        navLinks.style.right = "-200px"; 
-    }
-    
-</script>
-    
-</body>    
+    </footer>
+  </div>
+</body>
 </html>
