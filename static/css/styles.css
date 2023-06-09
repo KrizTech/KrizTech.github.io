@@ -4,10 +4,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.header {
+.header1 {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/static/images/learnhubbackground.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(static/images/learnhubbackground.jpg);
     background-position: left;
     background-size: cover;
     position: relative;
@@ -133,7 +133,7 @@ nav .fas{
 .sub-header1{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/static/images/ourcorses.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(static/images/ourcorses.jpg);
     background-position: left;
     text-align: center;
     color: #fff;
@@ -145,7 +145,7 @@ nav .fas{
     padding-top: 60px;
     min-height: 100vh;
     width: 80%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/static/images/courses_school.png);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(static/images/courses_school.png);
     background-position: left;
     background-size: cover;
     position: relative;
@@ -157,7 +157,7 @@ nav .fas{
     padding-top: 60px;
     min-height: 100vh;
     width: 80%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/images/courses_offer.png);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(static/images/courses_offer.png);
     background-position: left;
     background-size: cover;
     position: relative;
@@ -362,7 +362,7 @@ h4{
 .sub-header2{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/office2.png);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(static/images/office2.png);
     background-position: left;
     text-align: center;
     color: #fff;
@@ -370,7 +370,7 @@ h4{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/office2.PNG);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(static/images/office2.PNG);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -415,7 +415,7 @@ h6{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/about_us.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(static/images/about_us.jpg);
     background-position: center;
     text-align: center;
     color: #fff;
@@ -468,7 +468,7 @@ h5{
 .sub-header3{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/blog.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(static/images/blog.jpg);
     background-position: center;
     text-align: center;
     color: #fff;
